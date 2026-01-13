@@ -1,0 +1,60 @@
+# Site settings
+title: HebrewBooks.org Developer Documentation
+description: >- # this means to ignore newlines until "baseurl:"
+  Developer documentation for HebrewBooks.org
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://developers.hebrewbooks.org" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/images/hb-logo.gif"
+back_to_top: true
+back_to_top_text: "Back to top"
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+
+# Links on top right corner
+aux_links:
+  "Back to the Main Site":
+   - "https://hebrewbooks.org"
+
+sass:
+  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# Build settings
+theme: just-the-docs
+
+# Exclude from processing.
+exclude:
+  - .git/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

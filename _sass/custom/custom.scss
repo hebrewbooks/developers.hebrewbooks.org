@@ -1,0 +1,9 @@
+/* border for the table */
+.table-bordered {
+    border: 1px solid black !important;
+}
+
+/* Zebra coloring for rows */
+.table-bordered tbody tr:nth-child(even) td {
+    background-color: lightgrey !important;
+}
