@@ -5,6 +5,11 @@ permalink: /content/books
 parent: Linking to Our Content
 ---
 
+# Table of Contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 ## Book Content
 ### Book Structure
 The main and beta site both primarily host scans of books in PDF and image formats.
@@ -35,7 +40,7 @@ When constructing links to our content, please be aware of the following:
    * Do not link directly to the PDFs or images of the books or their pages
 
 ### Linking to Book Information Pages
-Each book has a primary information page which includes the image of the title
+Each book has a primary information page which includes the thumbnail of the title
 page and the book metadata. The canonical way to link to an information page for
 a given book is a follows:
    * Main site: **https://www.hebrewbooks.org/XXXXXX** where XXXXXX is the book ID
@@ -45,6 +50,17 @@ Examples of valid links:
    * https://hebrewbooks.org/1
    * https://beta.hebrewbooks.org/6788
    * https://hebrewbooks.org/45463
+
+### Linking to Book Thumbnails
+On the book information page, there is an thumbnail of the title page.
+The canonical way to link to thumbnail of a given book is a follows:
+   * Main site: **https://hebrewbooks.org/thumbs/XXXXXX.png** where XXXXXX is the book ID
+   * Beta site: use the same link as the main site
+
+Examples of valid links to thumbnails:
+   * https://hebrewbooks.org/thumbs/1.png
+   * https://hebrewbooks.org/thumbs/6788.png
+   * https://hebrewbooks.org/thumbs/45463.png
 
 ### Linking to a Specific Page Number
 It is possible to link to a specific page number which will then open the book
