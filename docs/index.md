@@ -7,8 +7,3 @@ nav_order: 0
 
 # Developer Documentation for HebrewBooks.org
 Coming Soon
-
-
-
-
-{{ jekyll_env }}
