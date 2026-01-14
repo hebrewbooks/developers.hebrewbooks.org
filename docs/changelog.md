@@ -4,9 +4,8 @@ title: Changelog
 permalink: /changelog
 ---
 
-# CHANGELOG
+# Changelog
 Noteable changes will be documented in this file
 
-HEAD
+2026-01-13
 - Initial commits
-- Added information about linking
