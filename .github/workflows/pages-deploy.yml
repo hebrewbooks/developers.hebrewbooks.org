@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --verbose
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: github.ref_name
       - name: Deploy to GitHub Pages - Production
