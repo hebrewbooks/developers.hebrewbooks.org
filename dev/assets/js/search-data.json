@@ -85,7 +85,7 @@
   },"12": {
     "doc": "Feedback",
     "title": "Feedback",
-    "content": "To provide feedback, either open a new issue in our documentation repository at GitHub or send feedback via this form. ",
+    "content": "To provide feedback, either open a new issue in our documentation repository at GitHub or send feedback via this form. You can also email us at developers@hebrewbooks.org. ",
     "url": "/feedback",
     
     "relUrl": "/feedback"
