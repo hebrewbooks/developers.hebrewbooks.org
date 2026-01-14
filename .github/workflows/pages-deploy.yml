@@ -37,7 +37,7 @@ jobs:
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: ${{ GITHUB_HEAD_REF }}
+          JEKYLL_ENV: ${{ GITHUB_REF_NAME }}
       - name: Deploy to GitHub Pages - Production
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
