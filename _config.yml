@@ -50,10 +50,12 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .jekyll-metadata
+  - changelog.md
   - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - readme.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
