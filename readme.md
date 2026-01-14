@@ -1,7 +1,13 @@
 # Developer documentation for HebrewBooks.org
 Welcome to our developer documentation! The information in this repository
 is deployed to our developer site: https://developers.hebrewbooks.org on
-a regular basis. This site is built using Jekyll.
+a regular basis.
+
+## Development information
+This site is built using Jekyll. To run this locally, use the following commmand:
+```
+bundle exec jekyll serve
+```
 
 ## Feedback and contributions
 [See here](docs/feedback.md) for more information.
